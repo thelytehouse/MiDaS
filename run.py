@@ -118,17 +118,17 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('-i', '--input_path', 
-        default='input',
+        default='/root/LyteDetect/MiDaS/input',
         help='folder with input images'
     )
 
     parser.add_argument('-o', '--output_path', 
-        default='output',
+        default='/root/LyteDetect/MiDaS/output',
         help='folder for output images'
     )
 
     parser.add_argument('-m', '--model_weights', 
-        default='model-f6b98070.pt',
+        default='/root/LyteDetect/model-f6b98070.pt',
         help='path to the trained weights of model'
     )
 
